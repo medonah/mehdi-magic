@@ -8,6 +8,7 @@
 
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 <!-- Custom fonts for this template -->
 <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -18,3 +19,6 @@
 
 <!-- Personnal CSS -->
 <link href="css/style.css" rel="stylesheet">
+
+<!-- Personnal SCRIPT JS -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>

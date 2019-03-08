@@ -4,6 +4,7 @@
   <head>
 
     <?php include("include/head.php"); ?>
+    <script type="text/javascript" src="js/accueil.js"></script>
 
   </head>
 
@@ -15,7 +16,6 @@
       <?php include("include/nav.php"); ?>
 
         <!-- Header -->
-      <?php  ?>
       <?php include("include/header.php"); ?>
 
       <!-- ACCEUIL -->
@@ -52,47 +52,35 @@
           </div>
         </div>
 
-        <!-- Diaporam photo -->
+        <div class="widget-diapo">
         <div class="diaporama">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/diapo_ecole_de_danse_ombres" alt="Premiere image">
-              </div>
-              <div class="carousel-item">
-                <img src="img/diapo_galerie" alt="Deuxieme image">
-              </div>
-              <div class="carousel-item">
-                <img src="img/diapo_reaction_coree" alt="Troisieme image">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="repose-image" id="photos">
+            <img src="img/diapo_ecole_de_danse_ombres.jpg" alt="école de danse ombres" class="img_paysage"/>
+            <img src="img/diapo_galerie.jpg" alt="E.LECLERC d'Amboise" class="img_paysage"/>
+            <img src="img/diapo_reaction_coree.jpg" alt="Surpris" class="img_portrait"/>
           </div>
         </div>
+        <div class="diaporama-bouton">
+            <span id="accueil-photo-precedent" class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+            <span id="accueil-photo-pause" class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+            <span id="accueil-photo-play" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+            <span id="accueil-photo-suivant" class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+        </div>
+        
+      </div>
+          
 
         <!-- Avis PLUS TARD-->
 
         <!-- Réseaux Sociaux -->
-        <div class="">
+        <div class="accueil-reseaux-sociaux">
             <div class="row">
-              <p>Retrouvez moi sur instagram, ma chaîne <a href="#">Youtube</a> ainsi que ma page <a href="#">Facebook</a></p>
+              <p>Retrouvez moi sur instagram, ma chaîne <a href="https://lc.cx/gg9o">Youtube</a> ainsi que ma page <a href="https://www.facebook.com/mehdi.magicien.hypnotiseur/">Facebook</a></p>
             </div>
             <div class="row">
-              <div class="col-md-4"><a href="#">Logo facebook</a></div>
-              <div class="col-md-4"><a href="#">Logo youtube</a></div>
-              <div class="col-md-4"><a href="#">Logo instagram</a></div>
+              <div class="col-md-4"><a href="https://www.facebook.com/mehdi.magicien.hypnotiseur/"><img src="img/facebook.png" alt="facebook"/></a></div>
+              <div class="col-md-4 youtube"><a href="https://lc.cx/gg9o"><img src="img/youtube.png" alt="youtube" /></a></div>
+              <div class="col-md-4"><a href="#"><img src="img/instagram.png" alt="instagram"/></a></div>
             </div>
         </div>
 
