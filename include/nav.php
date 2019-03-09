@@ -11,10 +11,10 @@
             </div>
         </div>
         <div class="col-lg-4 menu-mehdi">
-            <a href="index.php">Accueil</a>
-            <a href="galerie.php">Galerie Photos</a>
-            <a href="histoire.php">Une Histoire...</a>
-            <a href="contact.php">Contact</a>
+            <a href="index.php" id="menu-mehdi-accueil">Accueil</a>
+            <a href="galerie.php" id="menu-mehdi-galerie">Galerie Photos</a>
+            <a href="histoire.php" id="menu-mehdi-histoire">Une Histoire...</a>
+            <a href="contact.php" id="menu-mehdi-contact">Contact</a>
         </div>
     </div>
 </nav>

@@ -65,6 +65,10 @@ nav{
 	margin-left: 8px;
 }
 
+.menu-mehdi .actif{
+    color:rgb(120,120,120);
+} 
+
 /*************
 *** INDEX  ***
 *************/
@@ -104,16 +108,326 @@ nav{
 	color:blue;
 }
 
-.diaporama {
+.widget-diapo{
 	margin-right: 20%;
 	margin-left: 20%;
-	padding:20px;
-	border-color: rgb(34,34,34);
-	border-width:20px;
-	background-color: blue;
-	height: 700px;
+	background-color: rgb(34,34,34);
+	border:solid;
+	border-radius:10px;
 }
 
-.diaporama img {
+.diaporama{
+	padding:10px;
+	padding-bottom: 0px;
+}
+
+.diaporama .repose-image {
 	text-align: center;
+}
+
+.diaporama .repose-image .img_paysage{
+	width: 100%;
+}
+
+.diaporama .repose-image .img_portrait{
+	width: 70%;
+}
+
+.diaporama-bouton{
+	text-align: center;
+	
+}
+
+.diaporama-bouton span{
+	font-size:30px;
+	color: white;
+	margin-left:5px;
+	margin-right: 5px;
+	padding-bottom: 40px;
+}
+
+.diaporama-bouton .glyphicon:hover{
+	color: rgb(200,200,200);
+}
+
+.accueil-reseaux-sociaux{
+    text-align: center;
+    margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-family: "Fondamento",cursive;
+    font-size: 25px;
+}
+
+.accueil-reseaux-sociaux p{
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.accueil-reseaux-sociaux img{
+    width:20%;
+}
+
+.accueil-reseaux-sociaux .youtube{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/****************************
+******* UNE HISTOIRE ********
+*****************************/
+
+.histoire-mehdi{
+	text-align: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-family: "Fondamento",cursive;
+}
+
+.titre-biographie{
+    color:rgb(181,11,181);
+	font-size:32px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	font-family: "Fondamento",cursive;
+}
+
+.description-biographie{
+	font-size:20px;
+	color:rgb(86,94,113);
+}
+
+.description-biographie p {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.bloc-photo-histoire{
+    width:100%;
+}
+
+.bloc-photo-histoire img{
+    width:100%;
+    margin:2px;
+}
+
+.bloc-photo-histoire .column{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#histoireColumn1{
+    width: 21%;
+}
+
+#histoireColumn2{
+    width: 34%;
+}
+
+#histoireColumn3{
+    padding-top: 3px;
+    width: 44%;
+}
+
+.biographie .concours{
+    color: rgb(255,0,0);
+    font-family: "Lora", serif;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.biographie .membre-ffap{
+    color: rgb(0,0,255);
+    font-family: "Lora", serif;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/****************************
+********* GALERIE ***********
+*****************************/
+
+/** Diaporama galerie */
+.widget-diapo-galerie{
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: rgb(34,34,34);
+	border:solid;
+	border-radius:10px;
+}
+
+.diaporama-galerie{
+	padding:10px;
+	padding-bottom: 0px;
+}
+
+.diaporama-galerie .repose-image-galerie {
+	text-align: center;
+}
+
+.diaporama-galerie .repose-image-galerie .img_paysage{
+	width: 100%;
+}
+
+.diaporama-galerie .repose-image-galerie .img_portrait{
+	width: 40%;
+}
+
+.diaporama-bouton-galerie{
+	text-align: center;
+	
+}
+
+.diaporama-bouton-galerie span{
+	font-size:30px;
+	color: white;
+	margin-left:5px;
+	margin-right: 5px;
+	padding-bottom: 40px;
+}
+
+.diaporama-bouton-galerie .glyphicon:hover{
+	color: rgb(200,200,200);
+}
+
+
+/** Diaporama coree */
+.widget-diapo-coree{
+	margin-right: 40%;
+	margin-left: 40%;
+	background-color: rgb(34,34,34);
+	border:solid;
+	border-radius:10px;
+}
+
+.diaporama-coree{
+	padding:10px;
+	padding-bottom: 0px;
+}
+
+.diaporama-coree .repose-image-coree {
+	text-align: center;
+}
+
+.diaporama-coree .repose-image-coree .img_paysage{
+	width: 100%;
+}
+
+.diaporama-coree .repose-image-coree .img_portrait{
+	width: 50%;
+}
+
+.diaporama-bouton-coree{
+	text-align: center;
+	
+}
+
+.diaporama-bouton-coree span{
+	font-size:30px;
+	color: white;
+	margin-left:5px;
+	margin-right: 5px;
+	padding-bottom: 40px;
+}
+
+.diaporama-bouton-coree .glyphicon:hover{
+	color: rgb(200,200,200);
+}
+
+/* Bloc photo spectacle */
+
+.bloc-photo-spectacle{
+    text-align: center;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-family: "Fondamento",cursive;
+}
+
+.bloc-photo-spectacle img{
+    width:100%;
+    margin:2px;
+}
+
+.bloc-photo-spectacle .column-galerie{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#histoireColumn1-spectacle{
+    width: 54%;
+}
+
+#histoireColumn2-spectacle{
+    width: 42%;
+}
+
+.bloc-photo h1{
+    font-size: 40px;
+    color: rgb(255,0,0);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fondamento",cursive;
+    margin: 30px;
+}
+
+.experience {
+    color: rgb(51,51,51);
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    margin: 15px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.reference {
+    color: rgb(255,0,0);
+    text-decoration-color: underline;
+}
+
+.occasion {
+    color: rgb(255,0,0);
+    font-style: italic;
+}
+
+.lien-video {
+    color:rgb(51,51,51);
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lien-video a{
+    color: blue;
+}
+
+.auteur-photo {
+    color: rgb(51,51,51);
+    font-family: "Lora", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.nom-auteur-photo {
+    color:blue;
+}
+
+.description-photo{
+    margin-left: 30%;
+    margin-right: 30%;
 }
